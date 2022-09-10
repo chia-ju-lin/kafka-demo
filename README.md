@@ -15,7 +15,7 @@ Steps:
    - to listen to the real-time Topic
 5. RESTfull API 
     - to publish a Topic via POST
-    -POST http://localhost:8080/api/v1/messages
+    - POST http://localhost:8080/api/v1/messages
         Content-Type: application/json
 
         {
