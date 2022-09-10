@@ -15,5 +15,11 @@ Steps:
    - to listen to the real-time Topic
 5. RESTfull API 
     - to publish a Topic via POST
+    -POST http://localhost:8080/api/v1/messages
+        Content-Type: application/json
+
+        {
+          "message": "rest aaa"
+        }
     - ![image](https://user-images.githubusercontent.com/89087221/189471103-f409532c-7821-4b32-9a24-acd7d72419aa.png)
 
