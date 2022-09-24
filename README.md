@@ -23,3 +23,11 @@ Steps:
         }
     - ![image](https://user-images.githubusercontent.com/89087221/189471103-f409532c-7821-4b32-9a24-acd7d72419aa.png)
 
+
+Troub Shooting:
+- Symptom:
+ .timeindex.swap: The process cannot access the file because it is being used by another process.
+- Solution:
+ delete the C:\tmp\kafka-logs directory. After that i was able to start up the kafka server.
+- Reference:
+ https://stackoverflow.com/questions/45599625/kafka-unable-to-start-kafka-process-can-not-access-file-00000000000000000000
